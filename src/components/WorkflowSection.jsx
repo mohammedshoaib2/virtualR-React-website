@@ -4,7 +4,7 @@ import { CheckCircle2 } from "lucide-react";
 const WorkflowSection = () => {
   return (
     <div className="mt-20  flex flex-col justify-center items-center mx-[20px] sm:mx-[80px] ">
-      <h1 className=" text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-10 text-center">
+      <h1 className="trigger-animate-slide-right text-3xl sm:text-4xl md:text-5xl lg:text-6xl mb-10 text-center">
         Accelerate Your{" "}
         <span className="bg-gradient-to-r from-orange-500 to-orange-800 bg-clip-text text-transparent">
           Coding flow

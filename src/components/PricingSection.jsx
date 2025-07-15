@@ -3,16 +3,14 @@ import { Check } from "lucide-react";
 const PricingSection = () => {
   return (
     <div className=" mx-[20px] lg:mx-auto flex flex-col justify-center items-center mt-20">
-      <h1 className="trigger-animate-slide-right text-3xl sm:text-4xl md:text-5xl lg:text-6xl">
-        Pricing
-      </h1>
+      <h1 className=" text-3xl sm:text-4xl md:text-5xl lg:text-6xl">Pricing</h1>
 
       <div className="w-full flex flex-wrap mt-20 gap-10 sm:px-8  lg:px-12 lg:justify-center ">
         {pricingOptions.map((price, index) => {
           return (
             <div
               key={index}
-              className="animate-slide-right w-full md:w-[47%] lg:w-[30%] border  border-neutral-600 p-10 rounded-2xl"
+              className=" w-full md:w-[47%] lg:w-[30%] border  border-neutral-600 p-10 rounded-2xl"
             >
               <h5 className="text-4xl mb-10">
                 {price.title}{" "}
