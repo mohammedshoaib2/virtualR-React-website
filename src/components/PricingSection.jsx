@@ -29,11 +29,12 @@ const PricingSection = () => {
               <ul>
                 {price.features.map((feature, index) => {
                   return (
-                    <div className="flex justify-start items-center gap-3 mb-5">
+                    <div
+                      key={index}
+                      className="flex justify-start items-center gap-3 mb-5"
+                    >
                       <Check className="h-4 w-4" />
-                      <li className="text-lg " key={index}>
-                        {feature}
-                      </li>
+                      <li className="text-lg ">{feature}</li>
                     </div>
                   );
                 })}

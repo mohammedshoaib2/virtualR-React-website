@@ -14,7 +14,7 @@ const WorkflowSection = () => {
         <div className="animate-slide-right w-full lg:w-[45%] ">
           <img src={codeImg} alt="" />
         </div>
-        <div className="w-full lg:w-[45%] flex flex-col gap-10 ">
+        <div className="animate-slide-left w-full lg:w-[45%] flex flex-col gap-10 ">
           {checklistItems.map((item, index) => {
             return (
               <div key={index} className="flex gap-10">
